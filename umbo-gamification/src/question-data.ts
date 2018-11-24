@@ -1,10 +1,10 @@
-type Answer = {
+export type Answer = {
     id: string;
     imageUrl: string;
     text: string;
 };
 
-type Question = {
+export type Question = {
     id: string;
     answers: [Answer, Answer];
 };
@@ -22,6 +22,21 @@ const questions: Question[] = [
                 id: "noSiblings",
                 imageUrl: "http://blah",
                 text: "I have no brother or sister"
+            }
+        ]
+    },
+    {
+        id: "daycare",
+        answers: [
+            {
+                id: "goesToDaycare",
+                imageUrl: "http://blah",
+                text: "I go to daycare"
+            },
+            {
+                id: "noDaycare",
+                imageUrl: "http://blah",
+                text: "I do not go to daycare"
             }
         ]
     }
