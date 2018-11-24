@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function TherapistList() {
-    return <div>I am a therapist</div>;
+    return <div>Here are some therapists:</div>;
 }

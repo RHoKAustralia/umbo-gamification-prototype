@@ -15,12 +15,12 @@ const questions: Question[] = [
         answers: [
             {
                 id: "hasSiblings",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I have brothers and sisters"
             },
             {
                 id: "noSiblings",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I have no brothers or sisters"
             }
         ]
@@ -31,12 +31,12 @@ const questions: Question[] = [
         answers: [
             {
                 id: "goesToSchool",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I go to school"
             },
             {
                 id: "noSchool",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I do not go to school"
             }
         ]
@@ -46,12 +46,12 @@ const questions: Question[] = [
         answers: [
             {
                 id: "livesInCountry",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I live in the country"
             },
             {
                 id: "doesNotLiveInCountry",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I do not live in the country"
             }
         ]
@@ -61,12 +61,12 @@ const questions: Question[] = [
         answers: [
             {
                 id: "playsSport",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I play sport"
             },
             {
                 id: "doesNotPlaySport",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I do not play sport"
             }
         ]
@@ -76,12 +76,12 @@ const questions: Question[] = [
         answers: [
             {
                 id: "prefersTV",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I like TV"
             },
             {
                 id: "prefersBooks",
-                imageUrl: "http://blah",
+                imageUrl: "/desert.jpg",
                 text: "I like books"
             }
         ]

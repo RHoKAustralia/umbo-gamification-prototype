@@ -4,6 +4,7 @@ import questionData from "../question-data";
 
 import Question from "./question";
 
+
 type State = {
     currentQuestionIndex: number;
 };
