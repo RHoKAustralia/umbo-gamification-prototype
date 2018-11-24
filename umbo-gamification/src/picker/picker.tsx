@@ -1,9 +1,10 @@
 import React from "react";
+import { Row, Col } from "reactstrap";
 
 import questionData from "../question-data";
+import Styles from "./picker.module.scss";
 
 import Question from "./question";
-
 
 type State = {
     currentQuestionIndex: number;
@@ -36,6 +37,9 @@ export default class Picker extends React.Component<Props, State> {
 
         return (
             <div>
+                <Row className={Styles["intro-row"]}>
+                    <Col>Which is more true for you?</Col>
+                </Row>
                 <Question
                     question={currentQuestion}
                     onQuestionAnswered={this.onQuestionAnswered}

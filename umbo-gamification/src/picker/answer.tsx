@@ -16,6 +16,8 @@ export default function AnswerComponent(props: Props) {
         <div
             className={`d-flex flex-column align-items-center ${Styles.answer}`}
         >
+            <Button onClickCapture={onClick}>{props.answer.text}</Button>
+            
             <div className={Styles["image-wrapper"]}>
                 <img
                     onClickCapture={onClick}
@@ -23,8 +25,6 @@ export default function AnswerComponent(props: Props) {
                     src={props.answer.imageUrl}
                 />
             </div>
-
-            <Button onClickCapture={onClick}>{props.answer.text}</Button>
         </div>
     );
 }

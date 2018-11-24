@@ -6,11 +6,37 @@
     border-radius: 5em;
 }
 
+.interest-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
 .interest {
+    margin: 1em;
     text-transform: capitalize;
+    display: inline-block;
+    text-align: center;
+}
+
+.interest-image {
+    height: 5em;
+    width: 5em;
+    border: 1px black solid;
 }
 
 .therapist-row {
     margin: 1em 0;
     padding: 0.5em 0;
+}
+
+.intro-row {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.info-col {
+    padding-left: 1.5em;
 }

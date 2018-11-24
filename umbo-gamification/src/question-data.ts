@@ -31,12 +31,12 @@ const questions: Question[] = [
         answers: [
             {
                 id: "goesToSchool",
-                imageUrl: "/desert.jpg",
+                imageUrl: "/answers/to-sch.jpg",
                 text: "I go to school"
             },
             {
                 id: "noSchool",
-                imageUrl: "/desert.jpg",
+                imageUrl: "/answers/no-sch.jpg",
                 text: "I do not go to school"
             }
         ]
@@ -46,13 +46,13 @@ const questions: Question[] = [
         answers: [
             {
                 id: "livesInCountry",
-                imageUrl: "/desert.jpg",
+                imageUrl: "/answers/country.jpg",
                 text: "I live in the country"
             },
             {
-                id: "doesNotLiveInCountry",
-                imageUrl: "/desert.jpg",
-                text: "I do not live in the country"
+                id: "livesInCity",
+                imageUrl: "/answers/city.jpg",
+                text: "I live in the city"
             }
         ]
     },
@@ -61,12 +61,12 @@ const questions: Question[] = [
         answers: [
             {
                 id: "playsSport",
-                imageUrl: "/desert.jpg",
+                imageUrl: "/answers/sports.jpg",
                 text: "I play sport"
             },
             {
                 id: "doesNotPlaySport",
-                imageUrl: "/desert.jpg",
+                imageUrl: "/answers/no-sports.jpg",
                 text: "I do not play sport"
             }
         ]
@@ -76,12 +76,12 @@ const questions: Question[] = [
         answers: [
             {
                 id: "prefersTV",
-                imageUrl: "/desert.jpg",
+                imageUrl: "/answers/tv.jpg",
                 text: "I like TV"
             },
             {
                 id: "prefersBooks",
-                imageUrl: "/desert.jpg",
+                imageUrl: "/answers/books.jpg",
                 text: "I like books"
             }
         ]

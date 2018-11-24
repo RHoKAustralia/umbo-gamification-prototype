@@ -9,9 +9,10 @@ import Styles from "./therapist-list.module.scss";
 export default function TherapistList() {
     return (
         <React.Fragment>
-            <Row>
+            <Row className={Styles["intro-row"]}>
                 <Col xs={12}>
-                    Here are some therapists for you to choose from:
+                    Thanks for filling that out! Here are some people who would
+                    be great for you. Who do you like the most?
                 </Col>
             </Row>
             {therapists.map(therapist => (
@@ -27,14 +28,20 @@ export default function TherapistList() {
                                 }}
                             />
                         </Col>
-                        <Col md={9} sm={8}>
+                        <Col md={9} sm={8} className={Styles["info-col"]}>
                             <h3>{therapist.name}</h3>
                             <div>
                                 {therapist.name} likes:
-                                <ul>
+                                <ul className={Styles["interest-list"]}>
                                     {therapist.interests.map(interest => (
                                         <li className={Styles.interest}>
-                                            {interest}
+                                            <img
+                                                src={interest.imageUrl}
+                                                className={
+                                                    Styles["interest-image"]
+                                                }
+                                            />
+                                            <div>{interest.name}</div>
                                         </li>
                                     ))}
                                 </ul>
