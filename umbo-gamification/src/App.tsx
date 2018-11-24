@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Picker from "./picker/picker";
-import {Container} from "reactstrap";
+import { Container } from "reactstrap";
 
 import "bootstrap/dist/css/bootstrap.css";
 import TherapistList from "./therapists/therapist-list";
@@ -12,7 +12,9 @@ type State = {
 };
 
 class App extends Component<{}, State> {
-    state: State = { page: "picker" };
+    state: State = {
+        page: "picker" //"therapists" //"picker"
+    };
 
     onQuestionsComplete = () => {
         this.setState({

@@ -15,12 +15,12 @@ const questions: Question[] = [
         answers: [
             {
                 id: "hasSiblings",
-                imageUrl: "/desert.jpg",
+                imageUrl: "/answers/siblings.jpg",
                 text: "I have brothers and sisters"
             },
             {
                 id: "noSiblings",
-                imageUrl: "/desert.jpg",
+                imageUrl: "/answers/only-child.jpg",
                 text: "I have no brothers or sisters"
             }
         ]

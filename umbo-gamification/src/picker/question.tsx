@@ -15,13 +15,13 @@ export default function QuestionComponent({
 }: Props) {
     return (
         <Row>
-            <Col md={6}>
+            <Col sm={6}>
                 <Answer
                     answer={question.answers[0]}
                     onClick={onQuestionAnswered}
                 />
             </Col>
-            <Col md={6}>
+            <Col sm={6}>
                 <Answer
                     answer={question.answers[1]}
                     onClick={onQuestionAnswered}
